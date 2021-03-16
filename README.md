@@ -1,3 +1,13 @@
+Coursework of Scrimba's **Learn Styled Components in React :: Hello World** \
+(a course by **Ania Kubow**)
+
+[GitHub Page](https://arta.github.io/scrimba-learn-styled-components-in-react-hello-world/)
+of this repo
+
+Scrimba's course [website](https://scrimba.com/learn/styledcomponents)
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
