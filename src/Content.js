@@ -34,7 +34,7 @@ const Content = () => {
       <Button primary text='Me first' />
       <Button text='Me second' />
       <Icon border='3px solid' primary />
-      <Icon />
+      <Icon status='in-progress' />
       <ParagraphTitle as={ReversedTitle}>I am a paragraph title</ParagraphTitle>
     </Section>
   )
