@@ -43,6 +43,9 @@ const Content = () => {
 export default Content
 
 //Mini Challenge
+//Can you make both icons change colour on hover?
+
+//Mini Challenge
 //based on the if else statement for the status, can you add your own if else statement
 //that will render the green button like a traffic light, based on a prop we pass
 //through? Please get rid of the 'primary' prop that controls the background-color to

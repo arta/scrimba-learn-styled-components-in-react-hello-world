@@ -15,11 +15,14 @@ const StyledIcon = styled.div `
     else if (status === 'done' ) return '8.75rem'
   }};
   height: 2rem; width: 2rem;
+  &:hover {
+    background: lightgreen;
+  }
 `
 
-const Icon = ({border, primary, readiness, status}) => {
+const Icon = ({border, readiness, status}) => {
   return (
-    <StyledIcon border={border} primary={primary} readiness={readiness} status={status} />
+    <StyledIcon border={border} readiness={readiness} status={status} />
   )
 }
 
