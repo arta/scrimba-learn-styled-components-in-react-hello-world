@@ -13,7 +13,7 @@ const fadeIn = keyframes `
 
 const rotate = keyframes `
   from {
-    transform: rotate(0);
+    transform: rotate(200deg);
   }
   to {
     transform: rotate(360deg);
@@ -30,8 +30,7 @@ const Section = styled.div `
 
 const Title = styled.h1 `
   align-self: center;
-  // animation: ${fadeIn} 5s ease-in;
-  animation: ${rotate} 2s;
+  animation: ${fadeIn} 1s ease-in, ${rotate} 1s;
   color: #aaecf0;
 `
 
