@@ -15,11 +15,17 @@ const StyledButton = styled.button `
   &:hover {
     background: teal;
   }
+  .subtext {
+    font-size: .75rem;
+  }
 `
 
 const Button = ({primary, text}) => {
   return (
-    <StyledButton primary={primary}>{text}</StyledButton>
+    <StyledButton primary={primary}>
+      {text}
+      <p className='subtext'>Sub text</p>
+    </StyledButton>
     // <StyledButton as={ReversedText} primary={primary}>{text}</StyledButton>
   )
 }
