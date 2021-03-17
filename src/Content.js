@@ -21,7 +21,7 @@ const Content = () => {
       <Title>💅 Section</Title>
       <Button primary text='Me first' />
       <Button text='Me second' />
-      <Icon />
+      <Icon primary />
       <Icon />
     </Section>
   )

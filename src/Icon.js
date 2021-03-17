@@ -1,15 +1,15 @@
 import styled from 'styled-components'
 
 const StyledIcon = styled.div `
-  background: white;
+  background: ${({primary}) => primary ? 'green' : 'yellow'};
   border-radius: 100%;
   margin: .5rem;
   height: 2rem; width: 2rem;
 `
 
-const Icon = () => {
+const Icon = ({primary}) => {
   return (
-    <StyledIcon />
+    <StyledIcon primary={primary} />
   )
 }
 
