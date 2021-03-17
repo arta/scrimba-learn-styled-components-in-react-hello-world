@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/scrimba-learn-styled-components-in-react-hello-world/static/css/main.7acaab2e.chunk.css",
-    "main.js": "/scrimba-learn-styled-components-in-react-hello-world/static/js/main.cc312615.chunk.js",
-    "main.js.map": "/scrimba-learn-styled-components-in-react-hello-world/static/js/main.cc312615.chunk.js.map",
+    "main.js": "/scrimba-learn-styled-components-in-react-hello-world/static/js/main.ad2955d7.chunk.js",
+    "main.js.map": "/scrimba-learn-styled-components-in-react-hello-world/static/js/main.ad2955d7.chunk.js.map",
     "runtime-main.js": "/scrimba-learn-styled-components-in-react-hello-world/static/js/runtime-main.a0de2d8a.js",
     "runtime-main.js.map": "/scrimba-learn-styled-components-in-react-hello-world/static/js/runtime-main.a0de2d8a.js.map",
     "static/js/2.43577413.chunk.js": "/scrimba-learn-styled-components-in-react-hello-world/static/js/2.43577413.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a0de2d8a.js",
     "static/js/2.43577413.chunk.js",
     "static/css/main.7acaab2e.chunk.css",
-    "static/js/main.cc312615.chunk.js"
+    "static/js/main.ad2955d7.chunk.js"
   ]
 }
