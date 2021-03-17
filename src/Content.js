@@ -15,10 +15,15 @@ const Title = styled.h1 `
   color: #aaecf0;
 `
 
+const SubTitle = styled(Title)`
+  font-size: .875rem;
+`
+
 const Content = () => {
   return (
     <Section>
       <Title>💅 Section</Title>
+      <SubTitle>I am a subtitle</SubTitle>
       <Button primary text='Me first' />
       <Button text='Me second' />
       <Icon primary />
