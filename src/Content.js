@@ -1,8 +1,18 @@
 import styled from 'styled-components'
 
+const Button = styled.button `
+  background: white;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: .25rem;
+  padding: .25rem;
+`
+
 const Section = styled.div `
     background-color: #f0d1aa;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     color: #f0aeaa;
     border-radius: 15px;
@@ -16,6 +26,8 @@ const Content = () => {
   return (
     <Section>
       <Title>💅 Section</Title>
+      <Button>Click me</Button>
+      <Button>Click me</Button>
     </Section>
   )
 }
