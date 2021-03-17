@@ -1,6 +1,9 @@
 import styled from 'styled-components'
 
-const StyledButton = styled.button `
+const ReversedText = props =>
+  <StyledButton {...props} children={props.children.split('').reverse()} />
+
+  const StyledButton = styled.button `
   background: ${({primary}) => primary ? 'red' : 'blue '};
   border-radius: 1rem;
   color: white;
@@ -12,7 +15,7 @@ const StyledButton = styled.button `
 
 const Button = ({primary, text}) => {
   return (
-    <StyledButton primary={primary}>{text}</StyledButton>
+    <StyledButton as={ReversedText} primary={primary}>{text}</StyledButton>
   )
 }
 
