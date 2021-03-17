@@ -1,7 +1,13 @@
+import styled from 'styled-components'
+
+const Title = styled.h1 `
+  color: #aac9f0;
+`
+
 const Content = () => {
   return (
     <div className='section'>
-      <h1>Section</h1>
+      <Title>💅 Section</Title>
     </div>
   )
 }
