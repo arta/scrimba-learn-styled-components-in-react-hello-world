@@ -1,9 +1,10 @@
 import styled from 'styled-components'
 
+// polymorphic prop, not used now
 const ReversedText = props =>
   <StyledButton {...props} children={props.children.split('').reverse()} />
 
-  const StyledButton = styled.button `
+const StyledButton = styled.button `
   background: ${({primary}) => primary ? 'red' : 'blue '};
   border-radius: 1rem;
   color: white;
@@ -15,7 +16,8 @@ const ReversedText = props =>
 
 const Button = ({primary, text}) => {
   return (
-    <StyledButton as={ReversedText} primary={primary}>{text}</StyledButton>
+    <StyledButton primary={primary}>{text}</StyledButton>
+    // <StyledButton as={ReversedText} primary={primary}>{text}</StyledButton>
   )
 }
 
