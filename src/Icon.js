@@ -1,8 +1,13 @@
 import styled from 'styled-components'
 
 const StyledIcon = styled.div `
-  background: ${({primary}) => primary ? 'green' : 'yellow'};
-  border: ${({ border }) => border || '3px solid blue'};
+  background: ${({readiness}) => {
+    if (readiness === 'ready') return 'yellow'
+    else if (readiness === 'steady') return 'orange'
+    else if (readiness === 'go') return 'green'
+    else return 'red'
+  }};
+  border: ${({border}) => border || '3px solid blue'};
   border-radius: 100%;
   margin: .5rem;
   margin-left: ${({status}) => {
@@ -12,9 +17,9 @@ const StyledIcon = styled.div `
   height: 2rem; width: 2rem;
 `
 
-const Icon = ({border, primary, status}) => {
+const Icon = ({border, primary, readiness, status}) => {
   return (
-    <StyledIcon border={border} primary={primary} status={status} />
+    <StyledIcon border={border} primary={primary} readiness={readiness} status={status} />
   )
 }
 

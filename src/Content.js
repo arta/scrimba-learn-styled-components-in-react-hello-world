@@ -33,7 +33,7 @@ const Content = () => {
       <SubTitle>I am a subtitle</SubTitle>
       <Button primary text='Me first' />
       <Button text='Me second' />
-      <Icon border='3px solid' primary />
+      <Icon border='3px solid' readiness='ready' />
       <Icon status='in-progress' />
       <ParagraphTitle as={ReversedTitle}>I am a paragraph title</ParagraphTitle>
     </Section>
@@ -41,6 +41,12 @@ const Content = () => {
 }
 
 export default Content
+
+//Mini Challenge
+//based on the if else statement for the status, can you add your own if else statement
+//that will render the green button like a traffic light, based on a prop we pass
+//through? Please get rid of the 'primary' prop that controls the background-color to
+//do this.
 
 //Mini Challenge
 //Based on the way we added a border to the Primary Icon, can you make the default
