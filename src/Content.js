@@ -3,11 +3,11 @@ import Button from './Button'
 import Icon from './Icon'
 
 const Section = styled.div `
-    background-color: #aac9f0;
-    display: flex;
-    flex-direction: column;
-    color: #f0aeaa;
-    border-radius: 15px;
+  background-color: #aac9f0;
+  display: flex;
+  flex-direction: column;
+  color: #f0aeaa;
+  border-radius: 15px;
 `
 
 const Title = styled.h1 `
