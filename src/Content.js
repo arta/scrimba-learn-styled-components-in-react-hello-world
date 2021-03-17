@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import Button from './Button'
+import Icon from './Icon'
 
 const Section = styled.div `
     background-color: #aac9f0;
@@ -20,11 +21,19 @@ const Content = () => {
       <Title>💅 Section</Title>
       <Button primary text='Me first' />
       <Button text='Me second' />
+      <Icon />
+      <Icon />
     </Section>
   )
 }
 
 export default Content
+
+//Mini Challenge
+// In the same way that we added a primary and secondary prop to the two Buttons, can
+// you add two circles, or ‘Icons’ below the Buttons, but make them as a functional
+//component that we import into the Content Component. I want the primary Icon to
+//be Green and the secondary to be Yellow.
 
 //Mini Challenge
 // In this mini challenge I would like you to help me out for the next section by
