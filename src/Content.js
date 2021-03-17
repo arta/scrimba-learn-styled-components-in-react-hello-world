@@ -10,7 +10,7 @@ const Button = styled.button `
 `
 
 const Section = styled.div `
-    background-color: #f0d1aa;
+    background-color: #aac9f0;
     display: flex;
     flex-direction: column;
     color: #f0aeaa;
@@ -19,7 +19,7 @@ const Section = styled.div `
 
 const Title = styled.h1 `
   align-self: center;
-  color: #aac9f0;
+  color: #aaecf0;
 `
 
 const Content = () => {
