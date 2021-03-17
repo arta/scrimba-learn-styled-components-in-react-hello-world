@@ -43,6 +43,10 @@ const Content = () => {
 export default Content
 
 //Mini Challenge
+//Based on the way we added a border to the Primary Icon, can you make the default
+//border blue.
+
+//Mini Challenge
 // In the same way that we over-rode the style of the Title Component, I would like
 // you to do the same for the SubTitle component, and make a ParagraphTitle that
 //is grey. Put it at the bottom of the Section.
