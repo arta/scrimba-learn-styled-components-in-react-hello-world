@@ -1,17 +1,18 @@
 import styled from 'styled-components'
 
 const StyledButton = styled.button `
-  background: white;
+  background: ${({primary}) => primary ? 'red' : 'blue '};
   border-radius: 1rem;
+  color: white;
   cursor: pointer;
   font-size: 1rem;
   margin: .25rem;
   padding: .25rem;
 `
 
-const Button = ({text}) => {
+const Button = ({primary, text}) => {
   return (
-    <StyledButton>{text}</StyledButton>
+    <StyledButton primary={primary}>{text}</StyledButton>
   )
 }
 

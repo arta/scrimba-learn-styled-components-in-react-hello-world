@@ -18,7 +18,7 @@ const Content = () => {
   return (
     <Section>
       <Title>💅 Section</Title>
-      <Button text='Me first' />
+      <Button primary text='Me first' />
       <Button text='Me second' />
     </Section>
   )
