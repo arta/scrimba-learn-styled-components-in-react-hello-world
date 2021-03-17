@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/scrimba-learn-styled-components-in-react-hello-world/static/css/main.7acaab2e.chunk.css",
-    "main.js": "/scrimba-learn-styled-components-in-react-hello-world/static/js/main.b137b4ee.chunk.js",
-    "main.js.map": "/scrimba-learn-styled-components-in-react-hello-world/static/js/main.b137b4ee.chunk.js.map",
+    "main.js": "/scrimba-learn-styled-components-in-react-hello-world/static/js/main.f7d2079c.chunk.js",
+    "main.js.map": "/scrimba-learn-styled-components-in-react-hello-world/static/js/main.f7d2079c.chunk.js.map",
     "runtime-main.js": "/scrimba-learn-styled-components-in-react-hello-world/static/js/runtime-main.a0de2d8a.js",
     "runtime-main.js.map": "/scrimba-learn-styled-components-in-react-hello-world/static/js/runtime-main.a0de2d8a.js.map",
-    "static/js/2.43577413.chunk.js": "/scrimba-learn-styled-components-in-react-hello-world/static/js/2.43577413.chunk.js",
-    "static/js/2.43577413.chunk.js.map": "/scrimba-learn-styled-components-in-react-hello-world/static/js/2.43577413.chunk.js.map",
+    "static/js/2.00ddee85.chunk.js": "/scrimba-learn-styled-components-in-react-hello-world/static/js/2.00ddee85.chunk.js",
+    "static/js/2.00ddee85.chunk.js.map": "/scrimba-learn-styled-components-in-react-hello-world/static/js/2.00ddee85.chunk.js.map",
     "static/js/3.33dc98ea.chunk.js": "/scrimba-learn-styled-components-in-react-hello-world/static/js/3.33dc98ea.chunk.js",
     "static/js/3.33dc98ea.chunk.js.map": "/scrimba-learn-styled-components-in-react-hello-world/static/js/3.33dc98ea.chunk.js.map",
     "index.html": "/scrimba-learn-styled-components-in-react-hello-world/index.html",
     "static/css/main.7acaab2e.chunk.css.map": "/scrimba-learn-styled-components-in-react-hello-world/static/css/main.7acaab2e.chunk.css.map",
-    "static/js/2.43577413.chunk.js.LICENSE.txt": "/scrimba-learn-styled-components-in-react-hello-world/static/js/2.43577413.chunk.js.LICENSE.txt"
+    "static/js/2.00ddee85.chunk.js.LICENSE.txt": "/scrimba-learn-styled-components-in-react-hello-world/static/js/2.00ddee85.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a0de2d8a.js",
-    "static/js/2.43577413.chunk.js",
+    "static/js/2.00ddee85.chunk.js",
     "static/css/main.7acaab2e.chunk.css",
-    "static/js/main.b137b4ee.chunk.js"
+    "static/js/main.f7d2079c.chunk.js"
   ]
 }
