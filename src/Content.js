@@ -1,13 +1,5 @@
 import styled from 'styled-components'
-
-const Button = styled.button `
-  background: white;
-  border-radius: 1rem;
-  cursor: pointer;
-  font-size: 1rem;
-  margin: .25rem;
-  padding: .25rem;
-`
+import Button from './Button'
 
 const Section = styled.div `
     background-color: #aac9f0;
@@ -26,8 +18,8 @@ const Content = () => {
   return (
     <Section>
       <Title>💅 Section</Title>
-      <Button>Click me</Button>
-      <Button>Click me</Button>
+      <Button />
+      <Button />
     </Section>
   )
 }
