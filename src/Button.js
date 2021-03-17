@@ -9,9 +9,9 @@ const StyledButton = styled.button `
   padding: .25rem;
 `
 
-const Button = () => {
+const Button = ({text}) => {
   return (
-    <StyledButton>Click me</StyledButton>
+    <StyledButton>{text}</StyledButton>
   )
 }
 

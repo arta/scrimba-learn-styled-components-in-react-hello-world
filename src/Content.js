@@ -18,8 +18,8 @@ const Content = () => {
   return (
     <Section>
       <Title>💅 Section</Title>
-      <Button />
-      <Button />
+      <Button text='Click me' />
+      <Button text='Click me' />
     </Section>
   )
 }
