@@ -1,6 +1,15 @@
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
 import Button from './Button'
 import Icon from './Icon'
+
+const fadeIn = keyframes `
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+`
 
 const Section = styled.div `
   background-color: #aac9f0;
@@ -12,6 +21,7 @@ const Section = styled.div `
 
 const Title = styled.h1 `
   align-self: center;
+  animation: ${fadeIn} 5s ease-in;
   color: #aaecf0;
 `
 
