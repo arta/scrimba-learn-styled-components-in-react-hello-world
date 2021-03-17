@@ -19,6 +19,10 @@ const SubTitle = styled(Title)`
   font-size: .875rem;
 `
 
+const ParagraphTitle = styled(SubTitle) `
+  color: gray;
+`
+
 const Content = () => {
   return (
     <Section>
@@ -28,11 +32,17 @@ const Content = () => {
       <Button text='Me second' />
       <Icon primary />
       <Icon />
+      <ParagraphTitle>I am a paragraph title</ParagraphTitle>
     </Section>
   )
 }
 
 export default Content
+
+//Mini Challenge
+// In the same way that we over-rode the style of the Title Component, I would like
+// you to do the same for the SubTitle component, and make a ParagraphTitle that
+//is grey. Put it at the bottom of the Section.
 
 //Mini Challenge
 // In the same way that we added a primary and secondary prop to the two Buttons, can
