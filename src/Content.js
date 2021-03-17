@@ -11,6 +11,15 @@ const fadeIn = keyframes `
   }
 `
 
+const rotate = keyframes `
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+`
+
 const Section = styled.div `
   background-color: #aac9f0;
   display: flex;
@@ -21,7 +30,8 @@ const Section = styled.div `
 
 const Title = styled.h1 `
   align-self: center;
-  animation: ${fadeIn} 5s ease-in;
+  // animation: ${fadeIn} 5s ease-in;
+  animation: ${rotate} 2s;
   color: #aaecf0;
 `
 
@@ -51,6 +61,9 @@ const Content = () => {
 }
 
 export default Content
+
+//Mini Challenge
+//Can you make the Section Title rotate 360 degress on page instead?
 
 //Mini Challenge
 //Can you make both icons change colour on hover?
