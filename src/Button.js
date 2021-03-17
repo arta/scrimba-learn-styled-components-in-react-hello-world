@@ -12,6 +12,9 @@ const StyledButton = styled.button `
   font-size: 1rem;
   margin: .25rem;
   padding: .25rem;
+  &:hover {
+    background: teal;
+  }
 `
 
 const Button = ({primary, text}) => {
