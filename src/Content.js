@@ -13,12 +13,12 @@ const Section = styled.div `
     background-color: #f0d1aa;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     color: #f0aeaa;
     border-radius: 15px;
 `
 
 const Title = styled.h1 `
+  align-self: center;
   color: #aac9f0;
 `
 
