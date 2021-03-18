@@ -13,7 +13,7 @@ Scrimba's course [website](https://scrimba.com/learn/styledcomponents)
 `reactapp % npm install gh-pages --save-dev`
 
 - Update `package.json` with App's & `gp-pages`'s required entries, see commit:
-[38ac7a8](https://github.com/arta/scrimba-learn-styled-components-in-react-hello-world/commit/38ac7a85d7dc01bf286d49c82eadaf4bb859020a)
+[38ac7a8](https://github.com/arta/scrimba-learn-styled-components-in-react-hello-world/commit/38ac7a85d7dc01bf286d49c82eadaf4bb859020a) (& comment at the bottom)
 
 - Run deploy script after commits, as desired: \
 `reactapp % npm run deploy`
